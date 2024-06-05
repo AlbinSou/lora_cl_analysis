@@ -1,0 +1,11 @@
+train_mb_size: 32
+train_epochs: [0, 20, 60, 40, 40]
+eval_mb_size: 64
+device: cuda
+num_workers: 12
+lora_rank: 32
+lora_alpha: null
+name: finetune
+lwf_alpha: 5
+lwf_temperature: 2
+mode: null

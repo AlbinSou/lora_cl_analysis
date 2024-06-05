@@ -1,0 +1,11 @@
+# @package _global_
+
+defaults:
+  - lora_defaults.yaml
+  - override /benchmark: imnet_then_finetune.yaml
+  - override /model: timvit1k.yaml
+  - override /optimizer: lora_full.yaml
+  - _self_
+
+strategy:
+  mode: "full"

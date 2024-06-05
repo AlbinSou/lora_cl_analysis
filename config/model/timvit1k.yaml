@@ -1,0 +1,2 @@
+model_id: timm/vit_base_patch16_224.augreg_in1k
+model_type: vit

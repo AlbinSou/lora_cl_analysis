@@ -1,0 +1,2 @@
+model_id: timm/resnet50.a1_in1k
+model_type: cnn

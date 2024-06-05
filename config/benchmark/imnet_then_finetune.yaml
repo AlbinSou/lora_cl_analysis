@@ -1,0 +1,5 @@
+dataset_name: "imnet_then_finetune"
+
+factory_args:
+  benchmark_name: imnet_then_finetune
+  use_transforms: true

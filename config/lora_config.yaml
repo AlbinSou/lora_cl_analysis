@@ -1,0 +1,8 @@
+defaults:
+  - strategy: lora.yaml
+  - model: null
+  - benchmark: null
+  - optimizer: null
+  - deploy: default.yaml
+  - experiment: lora_experiment.yaml
+  - hydra.yaml
