@@ -48,3 +48,22 @@ python lora_forget.py deploy=my_deploy_file model=timresnet501k
 # ViT experiments
 python lora_forget.py deploy=my_deploy_file model=timvit1k
 ```
+
+## Citation
+
+```
+@InProceedings{soutif25a,
+  title = 	 {An Empirical Analysis of Forgetting in Pre-trained Models with Incremental Low-Rank Updates},
+  author =       {Soutif, Albin and Magistri, Simone and Weijer, Joost van de and Bagdanov, Andrew D.},
+  booktitle = 	 {Proceedings of The 3rd Conference on Lifelong Learning Agents},
+  pages = 	 {996--1012},
+  year = 	 {2025},
+  editor = 	 {Lomonaco, Vincenzo and Melacci, Stefano and Tuytelaars, Tinne and Chandar, Sarath and Pascanu, Razvan},
+  volume = 	 {274},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {29 Jul--01 Aug},
+  publisher =    {PMLR},
+  pdf = 	 {https://raw.githubusercontent.com/mlresearch/v274/main/assets/soutif25a/soutif25a.pdf},
+  url = 	 {https://proceedings.mlr.press/v274/soutif25a.html},
+}
+```
